@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EntityDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" entityID="https://estitest.tourism.government.bg" cacheDuration="PT5M" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIID6DCCAtCgAwIBAgITHwAAAGhaSUrbZlnppAACAAAAaDANBgkqhkiG9w0BAQsFADBjMRMwEQYKCZImiZPyLGQBGRYDY29tMRcwFQYKCZImiZPyLGQBGRYHdGxvZ2ljYTEVMBMGCgmSJomT8ixkARkWBXJlZ2l4MRwwGgYDVQQDExNyZWdpeC1SRUdJWDItU1VCLUNBMB4XDTIxMTAwNTEwMjIwNFoXDTI1MTExMTE5MjE0M1owKTELMAkGA1UEBhMCQkcxGjAYBgNVBAMTEWNsaWVudDYucmVnaXguY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs6NnOmCY1NdZS0mH5qBpOzrMxewaep1U+Jn7sN8s/K4M56C6oj6aGEwQo9VcRFbl6t5tW+m9Crzg3wUjzOeE97srbiD7r2CDitkY/jU4NaJj+Cr65I/+mJf/gLl19cCXaIhDD3lb/nnTUZGNjvFIZ6h9H7HBjN1XojUof1X9SGUYVGy+LUYSFmtAPHBCJUNSLGYV40WoteHxpRDSMf/jaz3RWfFk72NzyMZ1nUvSDtiISLyUydZSHgEcgKoUZm+0yx3DoBrAldgVCvjmf/wCnwyxI6hyGw4zcNRP2ATVzD6UPKWFSb56SxLCNa3CUzdVAcIq9lg5WlP7/TYoCLh6VQIDAQABo4HOMIHLMA4GA1UdDwEB/wQEAwIBjjAfBgNVHSUEGDAWBggrBgEFBQcDAgYKKwYBBAGCNwoDDDApBgkrBgEEAYI3FQoEHDAaMAoGCCsGAQUFBwMCMAwGCisGAQQBgjcKAwwwDwYDVR0TAQH/BAUwAwIBADAdBgNVHQ4EFgQU0RDDnHfuhV23D4GdEg/uJsKGBMAwHAYDVR0RBBUwE4IRcmVnaXgudGxvZ2ljYS5jb20wHwYDVR0jBBgwFoAUW2/aYN6G34RphIv1mHoroDjhICEwDQYJKoZIhvcNAQELBQADggEBAIfR9ccRilBBRWc1kkb0b14oxJNxUcJERRbNcvWUimNj2BveshASUnUSlNwPc1dcw0c+lKi1d01pP4JMWVZsyXKrNk5tglcnU8PVfyJ6gyMLvT531PyrwYP+YB2VoBWFkXfYvMvH5NstbjfiMjMlrIh0HeKfrzTg12CgMlK8qq8a2UBA9PQIYUiiNyQLoMMRIlsF2VIlINAK5RzLBJvJiM8N6hvMXrlQsMCmZcqgC5fyq7aUwiwhCqo7r6Ao821iw6tU0BPA5AdsFBosrDDNgSNuoyT5GEiKV8iURaD8OrcS2qSEh3UTOIpagKIPvKahWgWENK+nOrdbOgaCMDFY5kw=</X509Certificate>
+          <X509IssuerSerial>
+            <X509IssuerName>CN=regix-REGIX2-SUB-CA, DC=regix, DC=tlogica, DC=com</X509IssuerName>
+            <X509SerialNumber>691323101696279414362550352706265860712431720</X509SerialNumber>
+          </X509IssuerSerial>
+          <X509SubjectName>CN=client6.regix.com, C=BG</X509SubjectName>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://estitest.tourism.government.bg/Login/AuthenticateCertificate" index="0" />
+  </SPSSODescriptor>
+</EntityDescriptor>
